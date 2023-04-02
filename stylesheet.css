@@ -27,12 +27,14 @@
 
 header{
     padding-top: 1.5%;
+    /* border: 1px solid red; */
 }
 
 .nav-bar{
     display: flex;
     padding-left: 7.5%;
-    /* border: 1px solid red; */
+    border-bottom: 1.5px solid rgb(109, 103, 103);
+    padding-bottom: 25px;
 }
 
 .nav-inner-one{
@@ -85,7 +87,7 @@ header{
 }
 
 section{
-    margin-top: 4%;
+    margin-top: 12%;
     padding: 0 36%;
     /* border: 1px solid red; */
 }
