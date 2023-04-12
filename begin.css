@@ -149,7 +149,8 @@ section{
 
 .button-wrapper{
     margin: 0 8%;
+    display: flex;
     flex-wrap: wrap;
-    flex-shrink: auto;
+    /* flex-shrink: auto; */
 }
 
