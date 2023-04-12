@@ -1,7 +1,7 @@
 let displayScreen;
 displayScreen = document.getElementById("result");
-displayScreen.style.fontSize = "20px";
-displayScreen.style.padding = "10px 6rem";
+displayScreen.style.fontSize = "1rem";
+displayScreen.style.padding = "1rem";
 // Generate an array of numbers from 1 to 100
 let numbers = [];
 for (let i = 1; i < 101; i++) {
@@ -39,6 +39,7 @@ for (let i = 0; i < numbers.length; i++) {
             document.getElementById("result").innerHTML = "Too low, try again.";
             this.disabled = true;
             this.style.backgroundColor = "black"; 
+            this.style.color = "white";
             guessCounter--; // Decrement guess counter
             document.getElementById("guesses").innerHTML = " " + guessCounter;
             if (guessCounter === 0) {
@@ -51,7 +52,8 @@ for (let i = 0; i < numbers.length; i++) {
         } else {
             document.getElementById("result").innerHTML = "Too high, try again.";
             this.disabled = true;
-            this.style.backgroundColor = "black"; 
+            this.style.backgroundColor = "black";
+            this.style.color = "white"; 
             guessCounter--; // Decrement guess counter
             document.getElementById("guesses").innerHTML = " " + guessCounter;
             if (guessCounter === 0) {
